@@ -7,5 +7,5 @@ fn index() -> &'static str {
 
 #[launch]
 fn rocket() -> _ {
-  rocket::build().mount("/", rotes![index])
+  rocket::build().mount("/", routes![index])
 }
